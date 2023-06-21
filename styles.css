@@ -1,0 +1,32 @@
+body {
+    background-color: #000;
+    color: #0F0;
+}
+
+.terminal {
+    height: 90vh;
+    overflow: auto;
+    white-space: pre-wrap;
+    padding: 5px;
+    font-family: 'Courier New', monospace;
+}
+
+#input-area {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+}
+
+#input-area input, #input-area button {
+    height: 30px;
+}
+
+#input-area input {
+    width: calc(100% - 60px);
+}
+
+#input-area button {
+    width: 50px;
+}
